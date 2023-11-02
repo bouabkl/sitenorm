@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color:rgba(24, 1, 1, 0.794); /*arrière plan*/
+    display: flex; /*deplacer un peu vers le haut*/
+    justify-content: center;/*deplacer au centre*/
+    color: white; /*couleur blanche*/
+}
+.container{
+  position:absolute;/*pour pouvoir deplacer les elements de container*/
+  top: 100px;/*deplacement vers le bas*/
+  border: 2px solid cyan; /*mettre la couleur de la bordure en cyan*/
+  padding: 2rem /*la forme de l'image*/
+  
+}
+input{
+  border-radius: 12px;
+  height: 2rem; /*pour la hateur de la berre*/
+  border:2px solid cyan;
+  outline: none;/*pas de outline*/
+  padding-left: 15px;/*elargir la barre*/
+}
+/*.produit{
+  /*displa: flex;/*pour aligner les élements à l'interieur de prodruit
+}*/
+.produit img{
+   /*reduire le bord de l'image*/
+  height: 15rem;/*hauteur cela diminue avec l'image*/ 
+  margin: 1rem;/*pour decoler le produit de son nom*/
+}
